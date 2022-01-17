@@ -1,7 +1,7 @@
 body{ margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-
+    min-width: 300px;
 }
 
 input{ width: 100%;
@@ -14,10 +14,16 @@ input{ width: 100%;
 button{
     background:#66d9ff;
    padding: 10px 20px;
-   border: none;
+   border: 1px solid #66d9ff ;
    font-weight: bold;
    cursor: pointer;
+   color: white;
    
+}
+
+#delete-btn{
+    background: none;
+    color: #66d9ff;
 }
 
 ul {
@@ -33,3 +39,4 @@ li {
 li a {
     color: #66d9ff;
 }
+
